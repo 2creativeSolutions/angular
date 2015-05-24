@@ -22,8 +22,6 @@ angular.module('sly', ['slyEvaluate', 'slyRepeat']);
  * @returns {Boolean} True if value is an Array
  */
 function isArray(value) {
-	var value='';
-	var a= 2+3;
   return Object.prototype.toString.call(value) === '[object Array]';
 }
 
