@@ -29,8 +29,7 @@ function isArray(value) {
  * @param {*} value The value to check
  * @returns {Boolean} True if value is a Boolean
  */
-function isBoolean(value) {
-	var testString="Testing jenkins";
+function isBoolean(value) 
   return typeof value == 'boolean';
 }
 
