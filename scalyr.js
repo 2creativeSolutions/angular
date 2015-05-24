@@ -30,6 +30,7 @@ function isArray(value) {
  * @returns {Boolean} True if value is a Boolean
  */
 function isBoolean(value) {
+	var testString="Testing jenkins";
   return typeof value == 'boolean';
 }
 
